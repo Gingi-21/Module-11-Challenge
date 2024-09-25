@@ -1,0 +1,263 @@
+.navbar-nav {
+    padding-left: 75%;
+}
+
+
+.homeBody{
+    background-image: url(https://assets.codepen.io/6306176/gulp-light-roast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #dbd5d5;
+    color: #D98555;
+}
+
+.ourCoffee h1 {
+    margin-bottom: -90px;
+    color: #131D26;
+}
+
+.coffeeBody{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ourCoffee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#c4a491 ;
+
+}
+
+.columbian{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4a491;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: 50%;
+    height: 600px;
+    background: url(https://assets.codepen.io/6306176/gulp-espresso.jpg ) no-repeat center/cover;
+    border-radius: 8px;
+    margin-right: -50px;
+}
+
+.right{
+    width: 50%;
+    min-height: 400px;
+    background-color: #59331d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -100px;
+}
+
+.tripleBlended{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131D26;
+}
+
+.containerBlended{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.secondRight{
+    width: 50%;
+    min-height: 400px;
+    background-color: #c4a491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-right: -50px;
+    z-index: 1;
+   
+
+}
+
+.secondLeft{
+    width: 50%;
+    height: 600px;
+    background: url(https://assets.codepen.io/6306176/gulp-triple-blended.jpg) no-repeat center/cover;
+    border-radius: 8px;
+    margin-left: -50px;
+}
+
+.lightlyRoasted{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D98555;
+}
+
+.containerRoasted{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.thirdLeft{
+    width: 50%;
+    height: 600px;
+    background: url(https://assets.codepen.io/6306176/gulp-light-roast.jpg) no-repeat center/cover;
+    border-radius: 8px;
+}
+
+.thirdRight{
+    width: 50%;
+    min-height: 400px;
+    background-color: #131D26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -100px;
+}
+
+.expletive {
+    display: flex;
+    flex-direction: column;
+    background-color: #c4a491;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 9px;
+    color: white;
+    margin-top: 60px;
+    padding-top: 20px;
+   
+   
+}
+
+.aboutContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+}
+
+.aboutContent p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.coffeeImg {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 745px) {
+   
+   
+   
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+    .right {
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .containerBlended {
+        flex-direction: column;
+    }
+
+    .secondLeft {
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .secondRight{
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .containerRoasted {
+        flex-direction: column;
+    }
+
+    .thirdRight {
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .thirdLeft{
+        width: 80%;
+        margin: auto;
+        height: 300px;
+    }
+
+    .expletive {
+        margin: auto;
+        margin-top: 45px;
+    }
+
+    .coffeeImg {
+        margin: auto;
+        
+    }
+}
